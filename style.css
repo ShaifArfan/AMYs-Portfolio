@@ -96,6 +96,36 @@ p {
 	color: var(--primary-color);
 }
 
+/* scroll Top/Up Button */
+.scroll-top {
+	z-index: 100;
+	height: 60px;
+	width: 60px;
+	background-color: white;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	border-radius: 6px;
+	box-shadow: 0px 0px 20px rgba(71, 40, 182, 0.226);
+	/* hover effect default */
+	transform: scale(0.9);
+	transition: 0.3s ease-in-out transform;
+	/* for centering the icon */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.scroll-top svg {
+	width: 50%;
+	color: black;
+	pointer-events: none;
+}
+
+.scroll-top:hover {
+	transform: scale(1);
+}
+
 /* Navigation Section */
 #navigation {
 	position: fixed;
@@ -125,6 +155,7 @@ p {
 	position: fixed;
 	right: 0;
 	width: 80%;
+	max-width: 800px;
 	height: 100%;
 	z-index: 100;
 	background-color: var(--secondary-black);
@@ -596,7 +627,7 @@ p {
 #projects .item .right {
 	margin-left: -150px;
 	flex: 1;
-	background-color: rgb(208 205 224);
+	background-color: var(--body-bg);
 	padding: 5rem 3rem;
 	border-radius: 12px;
 	box-shadow: 0px 0px 20px #00000028;
@@ -813,5 +844,105 @@ p {
 		padding: 3rem;
 		width: 100%;
 		max-width: 100%;
+	}
+}
+
+/* Footer Section */
+#footer {
+	background-color: #311580;
+	color: white;
+	padding: 10rem 0 5rem 0;
+}
+#footer footer {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 2rem;
+}
+#footer footer .col-1 {
+	flex: 3;
+}
+#footer footer .col-2,
+#footer footer .col-3,
+#footer footer .col-4 {
+	flex: 2;
+}
+#footer footer .col-4 {
+	flex: 1;
+}
+#footer footer .col-4 ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+#footer footer .col-4 ul li a {
+	min-width: 50px;
+}
+#footer footer .col-1 .logo img {
+	max-width: 100px;
+	margin-bottom: 2rem;
+}
+#footer footer .col-1 p {
+	color: white;
+}
+
+#footer footer .column-heading {
+	font-family: 'Montserrat';
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+#footer footer ul {
+	list-style: none;
+}
+#footer footer ul li {
+	border-radius: 4px;
+}
+#footer footer ul li:hover {
+	background-color: white;
+}
+#footer footer ul li:hover a {
+	color: var(--primary-color);
+}
+#footer footer ul li a {
+	display: inline-block;
+	width: 100%;
+	color: white;
+	font-size: 1.7rem;
+	color: rgb(234, 233, 235);
+	padding: 0.5rem;
+}
+@media only screen and (max-width: 768px) {
+	#footer footer {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	#footer footer .col-1,
+	#footer footer .col-2,
+	#footer footer .col-3,
+	#footer footer .col-4 {
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+	#footer footer .col-4 ul {
+		width: fit-content;
+		margin: 0 auto;
+	}
+}
+
+/* copyright Section */
+#copyright {
+	padding: 1rem 0;
+	background-color: #221052;
+}
+#copyright p {
+	color: white;
+	margin: 1rem;
+	font-size: 1.4rem;
+}
+@media only screen and (max-width: 768px) {
+	#copyright p {
+		text-align: center;
 	}
 }
