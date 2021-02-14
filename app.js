@@ -5,16 +5,19 @@ const navLinks = document.querySelectorAll('.nav-content nav ul li a');
 const scrollButton = document.querySelector(".scroll-top");
 
 // scroll TOP Button Events
-window.addEventListener('scroll', ()=> {
-  if(pageYOffset > (window.innerHeight * 1.2)){
-    scrollButton.style.display="flex";
-  }else{
-    scrollButton.style.display="none";
-  }
-})
-scrollButton.addEventListener("click", () => {
-  window.scrollTo(0, 0);
-});
+
+if(scrollButton){
+  window.addEventListener('scroll', ()=> {
+    if(pageYOffset > (window.innerHeight * 1.2)){
+      scrollButton.style.display="flex";
+    }else{
+      scrollButton.style.display="none";
+    }
+  })
+  scrollButton.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+  });
+}
 
 // Hamburger Menu events
 hamburgerMenu.addEventListener('click', ()=>{

@@ -276,11 +276,11 @@ p {
 	justify-content: center;
 }
 #hero .container .left {
-	flex: 2;
-	padding-right: 3rem;
+	flex: 6;
+	/* padding-right: 3rem; */
 }
 #hero .container .right {
-	flex: 3;
+	flex: 8;
 }
 
 #hero .left .subheading {
@@ -293,7 +293,7 @@ p {
 	font-size: 6rem;
 	font-family: 'Montserrat';
 	font-weight: 900;
-	max-width: 350px;
+	/* max-width: 400px; */
 }
 #hero .left .desc {
 	margin-top: 2.5rem;
@@ -338,6 +338,10 @@ p {
 	#hero .left .heading {
 		margin: 0 auto;
 	}
+	#hero .container .left .desc {
+		margin: 0 auto;
+		margin-top: 2rem;
+	}
 	#hero .right img {
 		width: 100%;
 		height: 400px;
@@ -345,7 +349,7 @@ p {
 }
 @media only screen and (max-width: 950px) {
 	#hero .container .right {
-		flex: 2;
+		flex: 6;
 	}
 }
 
@@ -365,7 +369,7 @@ p {
 	border-radius: 12px;
 }
 #services .item:nth-child(1):hover {
-	background-color: rgba(255, 238, 0, 0.164);
+	background-color: rgb(8 69 241 / 35%);
 }
 #services .item:nth-child(2):hover {
 	background-color: rgba(0, 255, 115, 0.151);
@@ -392,7 +396,7 @@ p {
 	color: var(--secondary-gray);
 }
 #services .item:nth-child(1) .icon {
-	background-color: rgba(255, 238, 0, 0.411);
+	background-color: rgb(7 106 255 / 37%);
 }
 #services .item:nth-child(2) .icon {
 	background-color: rgba(0, 255, 115, 0.493);
@@ -411,6 +415,15 @@ p {
 	}
 	#services .item {
 		margin: 2rem 0;
+	}
+	#services .item:nth-child(1) {
+		background-color: rgb(8 69 241 / 35%);
+	}
+	#services .item:nth-child(2) {
+		background-color: rgba(0, 255, 115, 0.151);
+	}
+	#services .item:nth-child(3) {
+		background-color: #cbbef093;
 	}
 }
 
@@ -584,6 +597,10 @@ p {
 #about .left .card .card-sub-title {
 	font-size: 1.4rem;
 }
+#about .subheading {
+	color: var(--primary-color);
+	margin-bottom: 1rem;
+}
 #about .right .slogan {
 	font-size: 2.5rem;
 	margin-bottom: 2rem;
@@ -677,6 +694,19 @@ p {
 	color: var(--secondary-gray);
 	margin-bottom: 3rem;
 }
+#projects .item .right .external-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	border: 2px solid var(--primary-color);
+	background-color: transparent;
+	color: var(--primary-color);
+	padding: calc(0.6em - 4px) calc(1.6em - 4px);
+}
+#projects .item .right .external-link svg {
+	width: 25px;
+}
 
 @media only screen and (max-width: 768px) {
 	#projects .item {
@@ -692,6 +722,15 @@ p {
 	}
 	#projects .item:nth-of-type(even) .left {
 		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 450px) {
+	#projects .item .right .buttons {
+		flex-direction: column;
+	}
+	#projects .item .right .buttons a {
+		width: 100%;
+		text-align: center;
 	}
 }
 
