@@ -373,6 +373,7 @@ p {
 		justify-content: center;
 	}
 	#hero .left .heading {
+		font-size: 4rem;
 		margin: 0 auto;
 	}
 	#hero .container .left .desc {
