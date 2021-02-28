@@ -750,6 +750,9 @@ p {
 	#projects .item {
 		flex-direction: column;
 	}
+	#projects .item .left {
+		width: 100%;
+	}
 	#projects .item .right {
 		margin-left: 0;
 		width: 90%;
