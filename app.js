@@ -13,7 +13,7 @@ if(scrollButton){
     }else{
       scrollButton.style.display="none";
     }
-  })
+  });
   scrollButton.addEventListener("click", () => {
     window.scrollTo(0, 0);
   });
