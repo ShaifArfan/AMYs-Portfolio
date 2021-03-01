@@ -1,6 +1,6 @@
 # Project "AMY" (Portfolio Website)
 
-## Watch The Complete Tutorial : Coming Soon
+## Watch The Complete Tutorial : [Playlist](https://www.youtube.com/playlist?list=PLRv_Gd5w9e7m_6DqBDtb1gbG6ikBq2HJ3)
 
 ## Live Preview : [Open Link](https://shaifarfan.github.io/Protfolio-full-modern-website-amy/)
 
