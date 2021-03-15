@@ -556,40 +556,39 @@ p {
 	}
 }
 
-/* Numbers Section */
-#numbers {
+/* Stats Section Style*/
+#stats {
 	padding: 20rem 0 10rem 0;
 }
 
-#numbers .all-items {
+#stats .all-items {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* gap: 2rem; */
 }
-#numbers .all-items .item {
+#stats .all-items .item {
 	padding: 2rem;
 }
-#numbers .number {
+#stats .number {
 	font-family: 'Poppins';
 	font-size: 8rem;
 }
-#numbers .numbers-sub-heading {
+#stats .stats-sub-heading {
 	font-size: 2rem;
 	margin-bottom: 2rem;
 }
 
-#numbers .all-items .item:nth-child(1) {
+#stats .all-items .item:nth-child(1) {
 	background-color: rgba(255, 238, 0, 0.322);
 }
-#numbers .all-items .item:nth-child(2) {
+#stats .all-items .item:nth-child(2) {
 	background-color: rgba(0, 255, 115, 0.329);
 }
-#numbers .all-items .item:nth-child(3) {
+#stats .all-items .item:nth-child(3) {
 	background-color: #4705fc50;
 }
 @media only screen and (max-width: 768px) {
-	#numbers .all-items {
+	#stats .all-items {
 		flex-direction: column;
 	}
 }
