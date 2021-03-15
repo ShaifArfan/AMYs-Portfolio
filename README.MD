@@ -1,8 +1,8 @@
 # Project "AMY" (Portfolio Website)
 
-## Watch The Complete Tutorial : Coming Soon
+## Watch The Complete Tutorial : [Playlist](https://www.youtube.com/playlist?list=PLRv_Gd5w9e7m_6DqBDtb1gbG6ikBq2HJ3)
 
-## Live Preview : [Open Link](https://shaifarfan.github.io/Protfolio-full-modern-website-amy/)
+## Live Preview : [Open Link](https://shaifarfan.github.io/AMYs-Portfolio/)
 
 This project is for HTML & CSS practice. AMY is a fictional character. She is a freelance web designer. We made this nice portfolio for her with mainly HTML & CSS. Though we used few lines of js but the main purpose of this project is to practice HTML & CSS.
 
