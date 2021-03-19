@@ -947,13 +947,7 @@ p {
 #footer footer .col-4 {
 	flex: 1;
 }
-#footer footer .col-4 ul {
-	display: flex;
-	flex-wrap: wrap;
-}
-#footer footer .col-4 ul li a {
-	min-width: 50px;
-}
+
 #footer footer .col-1 .logo img {
 	max-width: 100px;
 	margin-bottom: 2rem;
@@ -986,8 +980,14 @@ p {
 	width: 100%;
 	color: white;
 	font-size: 1.7rem;
-	color: rgb(234, 233, 235);
 	padding: 0.5rem;
+}
+#footer footer .col-4 ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+#footer footer .col-4 ul li a {
+	min-width: 50px;
 }
 @media only screen and (max-width: 768px) {
 	#footer footer {
