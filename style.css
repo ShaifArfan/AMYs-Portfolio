@@ -737,9 +737,6 @@ p {
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
-	border: 2px solid var(--primary-color);
-	background-color: transparent;
-	color: var(--primary-color);
 	padding: calc(0.6em - 4px) calc(1.6em - 4px);
 }
 #projects .item .right .external-link svg {
