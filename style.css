@@ -131,8 +131,6 @@ p {
 #navigation {
 	position: fixed;
 	right: 50px;
-	top: 50px;
-
 	height: auto;
 	top: 20px;
 	z-index: 100;
@@ -201,6 +199,7 @@ p {
 }
 .nav-content ul li a::after {
 	content: attr(data-text);
+	pointer-events: none;
 	position: absolute;
 	right: -150px;
 	bottom: 30%;
