@@ -150,7 +150,7 @@ p {
 	width: 80%;
 	color: white;
 }
-.nav-content {
+#nav-content {
 	position: fixed;
 	right: 0;
 	width: 80%;
@@ -166,30 +166,30 @@ p {
 	transform: translateX(100%);
 	transition: 0.3s ease transform;
 }
-.nav-content.show {
+#nav-content.show {
 	transform: translateX(0);
 	box-shadow: -6px 0px 29px 7px #000000a3;
 }
-.nav-content .section-heading {
+#nav-content .section-heading {
 	text-align: left;
 }
-.nav-content .section-heading::before {
+#nav-content .section-heading::before {
 	content: 'Menu';
 	text-align: left;
 	-webkit-text-stroke: 1.5px #afadad25;
 }
-.nav-content .wrapper {
+#nav-content .wrapper {
 	width: 70%;
 	position: relative;
 }
-.nav-content ul {
+#nav-content ul {
 	list-style: none;
 	text-align: left;
 }
-.nav-content ul li {
+#nav-content ul li {
 	margin-bottom: 2rem;
 }
-.nav-content ul li a {
+#nav-content ul li a {
 	display: inline-block;
 	width: 100%;
 	color: white;
@@ -197,7 +197,7 @@ p {
 	font-family: 'Montserrat';
 	/* position: relative; */
 }
-.nav-content ul li a::after {
+#nav-content ul li a::after {
 	content: attr(data-text);
 	pointer-events: none;
 	position: absolute;
@@ -213,11 +213,11 @@ p {
 	text-align: center;
 	transform: rotate(90deg) scale(3);
 }
-.nav-content ul li a:hover::after {
+#nav-content ul li a:hover::after {
 	opacity: 1;
 	transform: scale(3) translateY(10px) rotate(90deg);
 }
-.nav-content .close-btn {
+#nav-content .close-btn {
 	position: absolute;
 	left: 10px;
 	top: 10px;
@@ -232,10 +232,10 @@ p {
 	cursor: pointer;
 	transition: 0.3s ease background-color;
 }
-.nav-content .close-btn:hover {
+#nav-content .close-btn:hover {
 	background-color: crimson;
 }
-.nav-content .close-btn svg {
+#nav-content .close-btn svg {
 	width: 80%;
 }
 @media only screen and (max-width: 768px) {
@@ -243,23 +243,23 @@ p {
 		right: 10px;
 		top: 10px;
 	}
-	.nav-content nav ul li a::after {
+	#nav-content nav ul li a::after {
 		display: none;
 	}
-	.nav-content .section-heading {
+	#nav-content .section-heading {
 		text-align: right;
 		margin-bottom: 5rem;
 	}
-	.nav-content .section-heading::before {
+	#nav-content .section-heading::before {
 		text-align: right;
 	}
-	.nav-content nav ul {
+	#nav-content nav ul {
 		text-align: right;
 	}
-	.nav-content nav ul li a {
+	#nav-content nav ul li a {
 		font-size: 2.5rem;
 	}
-	.nav-content .wrapper {
+	#nav-content .wrapper {
 		width: 90%;
 	}
 }
