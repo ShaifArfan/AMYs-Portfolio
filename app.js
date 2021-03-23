@@ -31,5 +31,6 @@ closeNavButton.addEventListener('click', ()=>{
 navLinks.forEach( link => {
   link.addEventListener('click', ()=> {
     navContent.classList.remove('show');
+    document.body.style.overflow="initial";
   })
 })
