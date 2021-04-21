@@ -398,13 +398,14 @@ p {
 
 #services .all-items {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 }
 #services .item {
 	padding: 1.5rem;
 	transition: 0.3s ease-in-out background-color;
 	border-radius: 12px;
+	flex: 1;
 }
 #services .item:nth-child(1):hover {
 	background-color: rgb(8 69 241 / 35%);
@@ -562,7 +563,7 @@ p {
 
 #stats .all-items {
 	display: flex;
-	align-items: center;
+	align-items: stretch;
 	justify-content: center;
 }
 #stats .all-items .item {
