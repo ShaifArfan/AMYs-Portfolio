@@ -1,4 +1,5 @@
 # Project "AMY" (Portfolio Website)
+![Watch Now](./image/ReadMeBanner.png)
 
 ## Watch The Complete Tutorial ![YouTube Video Views](https://img.shields.io/youtube/views/78l05_nuDIg?style=social) : [Playlist](https://www.youtube.com/playlist?list=PLRv_Gd5w9e7m_6DqBDtb1gbG6ikBq2HJ3)
 
@@ -8,4 +9,9 @@ This project is for HTML & CSS practice. AMY is a fictional character. She is a 
 
 <b>💻 Coded by [Shaif Arfan](https://instagram.com/shaifarfan08) | [web cifar](https://webcifar.com)</b>
 
-![Watch Now](./image/ReadMeBanner.png)
+
+## Similar Projects/turorials
+
+ - [Ayans's Profolio - (react.js project)](https://github.com/ShaifArfan/AYANs-portfolio)
+  
+
