@@ -13,5 +13,6 @@ This project is for HTML & CSS practice. AMY is a fictional character. She is a 
 ## Similar Projects/turorials
 
  - [Ayans's Profolio - (react.js project)](https://github.com/ShaifArfan/AYANs-portfolio)
+ - [Shaif's Cuisine - (HTML, CSS project)](https://github.com/ShaifArfan/shaif-s-cuisine)
   
 
